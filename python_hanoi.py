@@ -19,9 +19,6 @@ move(3,'A','B','C')
 
 
 class Tower(object):
-     """
-    对以上代码做了一些改进，添加了统计次数的功能。
-    """
     def __init__(self):
         self.counter = 0
     def hanoi(self,n,org,aux,dst):
